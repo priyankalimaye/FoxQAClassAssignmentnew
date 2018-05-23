@@ -1,0 +1,5 @@
+com\webdriver\tests\HomePageTest.class
+com\webdriver\tests\RestApiTest.class
+com\webdriver\tests\SeleniumTest.class
+com\webdriver\tests\AppiumTest.class
+com\webdriver\tests\ValidateTitle.class

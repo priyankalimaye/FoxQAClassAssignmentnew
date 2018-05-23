@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+<listeners>
+<listener class-name="com.webdriver.tests.listeners"/>
+</listeners>
+
+  <test name="Validating Home page">
+    <classes>
+      <class name="com.webdriver.tests.HomePageTest"/>
+     </classes>
+    </test> 
+    <test  name="Validating title in the page">
+    <classes>
+      <class name="com.webdriver.tests.ValidateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

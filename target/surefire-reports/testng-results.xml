@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+    <groups>
+    </groups>
+    <test name="Selenium" duration-ms="36" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+      <class name="com.webdriver.tests.SeleniumTest">
+        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:com.webdriver.tests.SeleniumTest@1cbbffcd]" name="seleniumTest" duration-ms="7" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTest -->
+      </class> <!-- com.webdriver.tests.SeleniumTest -->
+    </test> <!-- Selenium -->
+    <test name="RestApi" duration-ms="1" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+      <class name="com.webdriver.tests.RestApiTest">
+        <test-method status="PASS" signature="RestApiTest()[pri:0, instance:com.webdriver.tests.RestApiTest@192d43ce]" name="RestApiTest" duration-ms="1" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestApiTest -->
+      </class> <!-- com.webdriver.tests.RestApiTest -->
+    </test> <!-- RestApi -->
+    <test name="Appium" duration-ms="1" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+      <class name="com.webdriver.tests.AppiumTest">
+        <test-method status="PASS" signature="mobileTest()[pri:0, instance:com.webdriver.tests.AppiumTest@479d31f3]" name="mobileTest" duration-ms="1" started-at="2018-05-21T19:22:16Z" finished-at="2018-05-21T19:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileTest -->
+      </class> <!-- com.webdriver.tests.AppiumTest -->
+    </test> <!-- Appium -->
+  </suite> <!-- Suite -->
+</testng-results>

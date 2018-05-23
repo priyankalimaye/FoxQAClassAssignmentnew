@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="234419" started-at="2018-05-21T18:49:47Z" finished-at="2018-05-21T18:53:41Z">
+    <groups>
+    </groups>
+    <test name="Validating Home page" duration-ms="144947" started-at="2018-05-21T18:49:47Z" finished-at="2018-05-21T18:52:12Z">
+      <class name="com.webdriver.tests.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.webdriver.tests.HomePageTest@6cf0e0ba]" name="initialize" is-config="true" duration-ms="20143" started-at="2018-05-21T18:49:47Z" finished-at="2018-05-21T18:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="updatedata()[pri:1, instance:com.webdriver.tests.HomePageTest@6cf0e0ba]" name="updatedata" duration-ms="597" started-at="2018-05-21T18:50:07Z" finished-at="2018-05-21T18:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatedata -->
+        <test-method status="PASS" signature="LoginFox(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.webdriver.tests.HomePageTest@6cf0e0ba]" name="LoginFox" duration-ms="80445" started-at="2018-05-21T18:50:07Z" data-provider="getData" finished-at="2018-05-21T18:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non restricted user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFox -->
+        <test-method status="PASS" signature="LoginFox(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.webdriver.tests.HomePageTest@6cf0e0ba]" name="LoginFox" duration-ms="42476" started-at="2018-05-21T18:51:28Z" data-provider="getData" finished-at="2018-05-21T18:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.webdriver.tests.HomePageTest@6cf0e0ba]" name="teardown" is-config="true" duration-ms="1205" started-at="2018-05-21T18:52:10Z" finished-at="2018-05-21T18:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.webdriver.tests.HomePageTest -->
+    </test> <!-- Validating Home page -->
+    <test name="Validating title in the page" duration-ms="89432" started-at="2018-05-21T18:52:12Z" finished-at="2018-05-21T18:53:41Z">
+      <class name="com.webdriver.tests.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:com.webdriver.tests.ValidateTitle@7b2bbc3]" name="basePageNavigation" duration-ms="88098" started-at="2018-05-21T18:52:12Z" finished-at="2018-05-21T18:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.webdriver.tests.ValidateTitle@7b2bbc3]" name="teardown" is-config="true" duration-ms="1333" started-at="2018-05-21T18:53:40Z" finished-at="2018-05-21T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.webdriver.tests.ValidateTitle -->
+    </test> <!-- Validating title in the page -->
+  </suite> <!-- Suite -->
+</testng-results>

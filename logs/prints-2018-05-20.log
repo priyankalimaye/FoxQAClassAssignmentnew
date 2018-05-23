@@ -1,0 +1,8 @@
+20:10:46.204 [main] INFO  resources.TestBase - Driver is initialized
+20:14:04.973 [main] INFO  resources.TestBase - Driver is initialized
+20:14:35.148 [main] INFO  resources.TestBase - Navigated to Home Page
+20:14:48.790 [main] INFO  resources.TestBase - Restricted User
+20:15:14.283 [main] INFO  resources.TestBase - Navigated to Home Page
+20:15:27.817 [main] INFO  resources.TestBase - Non restricted user
+20:18:47.997 [main] INFO  resources.TestBase - Driver is initialized
+20:19:18.101 [main] INFO  resources.TestBase - Navigated to Home Page
